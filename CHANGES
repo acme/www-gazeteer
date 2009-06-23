@@ -1,6 +1,6 @@
 Revision history for Perl module WWW::Gazetteer: 
 
-0.24
+0.24 Tue Jun 23 19:34:50 BST 2009
    - perltidy
    - add computer-readable license
    - add human-readable license

@@ -4,7 +4,7 @@ use warnings;
 use Module::Pluggable search_path => ['WWW::Gazetteer'], require => 1;
 
 use vars qw($VERSION @ISA);
-$VERSION = '0.23';
+$VERSION = '0.24';
 
 sub new {
     my ( $package, $type, @params ) = @_;
