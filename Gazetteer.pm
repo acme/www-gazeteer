@@ -6,20 +6,20 @@ use vars qw($VERSION @ISA);
 $VERSION = '0.23';
 
 sub new {
-  my ($package, $type, @params) = @_;
+    my ( $package, $type, @params ) = @_;
 
-  my $self = bless {}, $package;
+    my $self = bless {}, $package;
 
-  my $class;
-  foreach my $plugin ($self->plugins) {
-    if ($plugin =~ /$type/i) {
-      $class = $plugin;
-      last;
+    my $class;
+    foreach my $plugin ( $self->plugins ) {
+        if ( $plugin =~ /$type/i ) {
+            $class = $plugin;
+            last;
+        }
     }
-  }
 
-  die "No WWW::Gazetteer plugin for $type found" unless $class;
-  return $class->new(@params);
+    die "No WWW::Gazetteer plugin for $type found" unless $class;
+    return $class->new(@params);
 }
 
 1;
