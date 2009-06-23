@@ -1,0 +1,13 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         WWW-Gazetteer
+version:      0.23
+version_from: Gazetteer.pm
+installdirs:  site
+requires:
+    Module::Pluggable:             0.01
+    Test::Exception:               0.01
+    Test::More:                    0.01
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17
