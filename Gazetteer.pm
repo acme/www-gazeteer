@@ -1,5 +1,6 @@
 package WWW::Gazetteer;
 use strict;
+use warnings;
 use Module::Pluggable search_path => ['WWW::Gazetteer'], require => 1;
 
 use vars qw($VERSION @ISA);

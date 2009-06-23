@@ -5,6 +5,7 @@ Revision history for Perl module WWW::Gazetteer:
    - add computer-readable license
    - add human-readable license
    - move test into t/ directory
+   - use strict
 
 0.23 Sat Jan 29 11:14:51 CET 2005
 	- reworked to use Module::Pluggable
